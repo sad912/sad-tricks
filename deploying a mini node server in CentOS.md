@@ -1,14 +1,12 @@
 # 在 CentOS 中部署一个迷你 node 服务器
-首先要确认服务器是否具有 Node.js 环境。
+1. 首先要确认服务器是否具有 Node.js 环境。
 ```
 node --version
 ```
-没有的话选择任意一种方法部署 Node.js 环境；这里我选择了二进制文件安装的方法。
+2. 没有的话选择任意一种方法部署 Node.js 环境；
+这里我选择了二进制文件安装的方法。
 
-
-
-1.  先找到要安装的 [Node.js](https://nodejs.org/dist/latest/) 文件;
-2.  在服务器上下载上述找到的文件；
+先找到要安装的 [Node.js](https://nodejs.org/dist/latest/) 文件, 然后在服务器上下载上述找到的文件；
 ```
 wget https://nodejs.org/dist/latest/node-v17.3.0-linux-x64.tar.xz
 ```
