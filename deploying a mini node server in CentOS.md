@@ -45,7 +45,7 @@ const port = 80
 const server = http.createServer((req, res) => {
     res.statusCode = 200
     res.setHeader('Content-Type', 'text/plain')
-    res.end('Hello SAD！')
+    res.end('Hello SAD!')
 })
 
 server.listen(port, hostname. () => {
@@ -53,6 +53,7 @@ server.listen(port, hostname. () => {
 })
 ```
 至此一个爆简易的迷你服务器就建成了，可以根据自己需要再增加功能。
+
 7. 使用 nohup 挂起自建的 node 服务器；
 ```
 nohup mini-server.js > mini-server.log 2>&1 &
