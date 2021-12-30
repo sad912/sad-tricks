@@ -4,6 +4,6 @@
 
 * [在 win11 中设置小鹤双拼](https://github.com/sad912/sad-tricks/blob/main/setting%20flypy%20in%20win11.md)；
 * [硬核的命令行翻译工具](https://github.com/sad912/sad-tricks/blob/main/hardcore%20translation%20tool%20in%20command%20line.md);
-* [在 CentOS 中部署一个迷你 node 服务器](https://github.com/sad912/sad-tricks/blob/main/deploying%20/a%20mini%20node%20server%20in%20CentOS.md);
+* [在 CentOS 中部署一个迷你 node 服务器](https://github.com/sad912/sad-tricks/blob/main/deploying%20a%20mini%20node%20server%20in%20CentOS.md);
 
 持续更新中...
