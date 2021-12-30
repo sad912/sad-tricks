@@ -4,6 +4,7 @@
 node --version
 ```
 2. 没有的话选择任意一种方法部署 Node.js 环境；
+
 这里我选择了二进制文件安装的方法。
 
 先找到要安装的 [Node.js](https://nodejs.org/dist/latest/) 文件, 然后在服务器上下载上述找到的文件；
@@ -15,7 +16,7 @@ wget https://nodejs.org/dist/latest/node-v17.3.0-linux-x64.tar.xz
 tar -xvf node-v17.3.0-linux-x64.tar.xz
 mv node-v17.3.0-linux-x64 node.js // 为了方便、简洁改一下文件名
 ```
-4. 创建给node、npm、npx命令创建软链接；
+4. 给node、npm、npx命令创建软链接；
 ```
 ln -s /rot/node.js/bin/node /user/local/bin/node
 ln -s /rot/node.js/bin/npm /user/local/bin/npm
