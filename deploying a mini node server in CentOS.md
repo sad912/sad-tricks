@@ -16,13 +16,13 @@ $ wget https://nodejs.org/dist/latest/node-v17.3.0-linux-x64.tar.xz
 $ tar -xvf node-v17.3.0-linux-x64.tar.xz
 $ mv node-v17.3.0-linux-x64 node.js // 为了方便、简洁改一下文件名
 ```
-4. 给node、npm、npx命令创建软链接；
+4. 给 node、npm、npx 命令创建软链接；
 ```
 $ ln -s /rot/node.js/bin/node /user/local/bin/node
 $ ln -s /rot/node.js/bin/npm /user/local/bin/npm
 $ ln -s /rot/node.js/bin/npx /user/local/bin/npx
 ```
-5. 确任链接成功；
+5. 确认链接成功；
 ```
 $ node --version
 $ npm --version
